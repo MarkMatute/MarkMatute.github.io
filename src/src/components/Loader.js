@@ -11,7 +11,7 @@ export default class Loader extends React.Component {
           <div className="loader-name" id="loader-name">
             Mark <strong>Matute</strong>
           </div>
-          <p className="loader-job" id="loader-job">Fullstack Web And Mobile Developer</p>
+          <p className="loader-job" id="loader-job">Software Engineer</p>
         </div>
       </div>
     )
