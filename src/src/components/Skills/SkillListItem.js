@@ -7,7 +7,6 @@ class SkillListItem extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     const { rating, skill } = this.props.skill;
     return (
       <li>
