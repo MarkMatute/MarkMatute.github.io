@@ -1,0 +1,38 @@
+[
+  {
+    "skill": "Javascript",
+    "rating": "99"
+  },
+  {
+    "skill": "NodeJS",
+    "rating": "99"
+  },
+  {
+    "skill": "ReactJS",
+    "rating": "90"
+  },
+  {
+    "skill": "AngularJS",
+    "rating": "90"
+  },
+  {
+    "skill": "PHP",
+    "rating": "99"
+  },
+  {
+    "skill": "Codeigniter",
+    "rating": "99"
+  },
+  {
+    "skill": "HTML/CSS",
+    "rating": "90"
+  },
+  {
+    "skill": "MySQL",
+    "rating": "90"
+  },
+  {
+    "skill": "MongoDB",
+    "rating": "90"
+  }
+]

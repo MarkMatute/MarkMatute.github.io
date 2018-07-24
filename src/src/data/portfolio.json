@@ -1,0 +1,44 @@
+[
+  {
+    "link": "https://wifhystudytest.duke-nus.edu.sg",
+    "title": "Duke NUS WIFHY Study",
+    "image": "img/portfolio/duke.png",
+    "desc": "NodeJS, React, Bootstrap, Koa | Development"
+  },
+  {
+    "link": "https://sandbox.directderm.com",
+    "title": "Direct Dermatology",
+    "image": "img/portfolio/dd.png",
+    "desc": "NodeJS, AngularJS, Bootstrap, iOS | Development"
+  },
+  {
+    "link": "http://c4.eacomm.com/ipsystems/",
+    "title": "IPSystems",
+    "image": "img/portfolio/ipsystems.png",
+    "desc": "CodeIgniter, Bootstrap | Development"
+  },
+  {
+    "link": "https://www.philippinecompanies.com/",
+    "title": "Philippine Companies",
+    "image": "img/portfolio/p13.JPG",
+    "desc": "CodeIgniter | Web Development"
+  },
+  {
+    "link": "",
+    "title": "DOTC Realtime Visualization",
+    "image": "img/portfolio/p12.JPG",
+    "desc": "PHP,JavaScript,MySQL & MongoDB | Web Development"
+  },
+  {
+    "link": "",
+    "title": "PVAO Online Verification System",
+    "image": "img/portfolio/p14.JPG",
+    "desc": "LAMP Stack | Web Development, SMS Integration"
+  },
+  {
+    "link": "",
+    "title": "RoadTanod - Philippines' Road accidents visualization.",
+    "image": "img/portfolio/p16.JPG",
+    "desc": "LAMP Stack | Web Development"
+  }
+]

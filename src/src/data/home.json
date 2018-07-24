@@ -1,0 +1,26 @@
+{
+  "image": "img/profile.jpg",
+  "desc": {
+    "displayName": "Mark Matute",
+    "text": "Passionate Software Engineer who loves developing applications written in Javascript, PHP etc, IT Healthcare advocate.",
+    "contacts": "markernest.matute@gmail.com / +639758675463 / +65 98315311"
+  },
+  "links": [
+    {
+      "path": "https://github.com/MarkMatute",
+      "icon": "github"
+    },
+    {
+      "path": "https://www.facebook.com/ernest.r.matute",
+      "icon": "facebook"
+    },
+    {
+      "path": "https://www.linkedin.com/profile/view?id=AAIAACEb-mMBkYc4qOPDmdlHw5HM8CKLFaLCJis&trk=nav_responsive_tab_profile_pic",
+      "icon": "linkedin"
+    },
+    {
+      "path": "https://plus.google.com/u/0/111892051456499534026",
+      "icon": "google-plus"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Work Experience",
+    "items": [
+      {
+        "title": "iHealth Labs Singapore",
+        "achievement": "Software Engineer",
+        "duration": "April 2018 - current",
+        "desc": "Develop applications with Fullstack Javascript."
+      },
+      {
+        "title": "EACOMM Corporation",
+        "achievement": "PHP & MySQL Consultant (Contractual)",
+        "duration": "Nov 2017 - April 2018",
+        "desc": "My task here is to develop and manage web applications written with PHP."
+      },
+      {
+        "title": "ISBX Inc.",
+        "achievement": "Fullstack Web and Mobile Developer",
+        "duration": "June 2017 - Feb 2018",
+        "desc": "Develop applications for iOS, Android and the Web."
+      },{
+        "title": "EACOMM Corporation",
+        "achievement": "Junior Software Developer",
+        "duration": "May 2016 - June 2017",
+        "desc": "My task are to create and maintain web applications in PHP,JavaScript and Java. My favorite task is to visualize realtime data."
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "items": [
+      {
+        "title": "Bulacan State University",
+        "achievement": "BS Information Technology",
+        "duration": "Graduation April 2016",
+        "desc": "I finished my Bachelor's Degree at Bulacan State University being a Dean's Lister, 4th Placer at Best Thesis Competition and 2nd Placer on Java Competition."
+      },
+      {
+        "title": "Holy Spirit Academy of Malolos",
+        "achievement": "Secondary Education / High School",
+        "duration": "Graduation March 2011",
+        "desc": "I encountered HTML the first time."
+      },
+      {
+        "title": "Holy Spirit Academy of Malolos",
+        "achievement": "Elementary Education",
+        "duration": "Graduation March 2007",
+        "desc": "I encountered Computer and Internet the first time."
+      }
+    ]
+  }
+]
