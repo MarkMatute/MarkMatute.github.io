@@ -8,9 +8,9 @@ class ProfileLinks extends React.Component {
   }
 
   render() {
-    const profileLinkItems = this.props.links.map((link) => {
+    const profileLinkItems = this.props.links.map((link, index) => {
       return (
-        <ProfileLinkItem path={link.path} icon={link.icon} />
+        <ProfileLinkItem path={link.path} icon={link.icon} key={index}/>
       )
     })
     return (

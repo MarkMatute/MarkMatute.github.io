@@ -8,9 +8,9 @@ class MenuList extends React.Component {
   }
 
   render() {
-    const menuItems = this.props.menus.map((menu) => {
+    const menuItems = this.props.menus.map((menu, index) => {
       return (
-        <MenuListItem menu={menu} />
+        <MenuListItem menu={menu} key={index}/>
       )
     });
 
