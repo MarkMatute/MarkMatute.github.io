@@ -1,37 +1,3 @@
-/*------------------------------------------------------------------
-[Main Theme Styles]
-
-Project:  Cards - Personal vCard, Resume/CV & Portfolio
-Author: Diego Pereira @ DotRex
-Version:  1.0
-Last change:  25/09/15 
-Primary use:  Vcard / Personal / CV / Resume / Portfolio
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Mixins / Variables
-2. General
-3. Buttons
-4. Page Loader
-5. Footer
-6. vCard Body
-7. Main Menu
-8. Home
-9. Content
-10. Section: Resume
-11. Owl Carousel
-12. Section: Skills
-13. Section: Portfolio
-14. Section: Blog
-15. Section: Blog - Single
-16. Maps
-17. Section: Blog - Contact
-18. Crossbrowser Fallbacks
--------------------------------------------------------------------*/
-/* ==========================================================
-! 01. MIXINS / VARIABLES
-==============	=========================================== */
 .color1 {
   color: #08aeac;
 }
@@ -71,12 +37,21 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
 body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
-  background: url('../img/Glitch.png') no-repeat center center fixed;
+  /* background: url('../img/Glitch.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background: #2d2d2d;
 }
+
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 /* ==========================================================
 ! 03. Buttons
 ========================================================== */
