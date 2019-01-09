@@ -8,11 +8,15 @@
     "rating": "99"
   },
   {
-    "skill": "ReactJS",
-    "rating": "90"
+    "skill": "Android",
+    "rating": "85"
   },
   {
-    "skill": "AngularJS",
+    "skill": "JAVA",
+    "rating": "85"
+  },
+  {
+    "skill": "ReactJS",
     "rating": "90"
   },
   {

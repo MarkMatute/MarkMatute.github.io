@@ -1,5 +1,17 @@
 [
   {
+    "link": "#",
+    "title": "Mosaix Demo App",
+    "image": "img/portfolio/mosaixdemoapp.png",
+    "desc": "AI Powered Android App"
+  },
+  {
+    "link": "https://demo.ihealthlabs.com.sg/#/login?_k=rfcf6s",
+    "title": "UnifiedCare",
+    "image": "img/portfolio/unifiedcare.png",
+    "desc": "Android, Java, Retrofit. Realm | Development"
+  },
+  {
     "link": "https://wifhystudytest.duke-nus.edu.sg",
     "title": "Duke NUS WIFHY Study",
     "image": "img/portfolio/duke.png",

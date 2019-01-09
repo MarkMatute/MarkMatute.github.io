@@ -6,24 +6,24 @@
         "title": "iHealth Labs Singapore",
         "achievement": "Software Engineer",
         "duration": "April 2018 - current",
-        "desc": "Develop applications with Fullstack Javascript."
+        "desc": "Develop Web and Mobile, and AI powered applications."
       },
       {
         "title": "EACOMM Corporation",
-        "achievement": "PHP & MySQL Consultant (Contractual)",
+        "achievement": "PHP & MySQL Consultant (Part-Time)",
         "duration": "Nov 2017 - April 2018",
-        "desc": "My task here is to develop and manage web applications written with PHP."
+        "desc": "Develop PHP powered applications."
       },
       {
         "title": "ISBX Inc.",
         "achievement": "Fullstack Web and Mobile Developer",
         "duration": "June 2017 - Feb 2018",
-        "desc": "Develop applications for iOS, Android and the Web."
+        "desc": "Develop Web and Mobile powered applications."
       },{
         "title": "EACOMM Corporation",
         "achievement": "Junior Software Developer",
         "duration": "May 2016 - June 2017",
-        "desc": "My task are to create and maintain web applications in PHP,JavaScript and Java. My favorite task is to visualize realtime data."
+        "desc": "Develop PHP powered web applications"
       }
     ]
   },
