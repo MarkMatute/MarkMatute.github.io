@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import DefaultLayout from './_layouts/default-layout';
 import Typed from 'typed.js';
 import LINKS from '../constants/links';
+import Head from 'next/head';
 
 export default function About() {
   const aboutElement = useRef(null);
@@ -31,6 +32,13 @@ export default function About() {
 
   return (
     <DefaultLayout>
+      <Head>
+        <title>About - Mark Matute</title>
+        <meta name="description" content={'About page by Mark Matute'} />
+        <meta property="og:title" content={'About - Mark Matute'} />
+        <meta property="og:description" content={'About page by Mark Matute'} />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <div className="row">
         <div className="col-lg-5 mx-auto mt-5">
           <span id="about" ref={aboutElement} className="mt-5"></span>

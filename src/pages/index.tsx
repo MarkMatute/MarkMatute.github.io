@@ -3,6 +3,7 @@ import ProjectCard from './_components/project-card';
 import DefaultLayout from './_layouts/default-layout';
 import Typed from 'typed.js';
 import { PROJECTS } from '../models/projects';
+import Head from 'next/head';
 
 export default function Home() {
   const titleRef = useRef(null);
@@ -21,6 +22,13 @@ export default function Home() {
 
   return (
     <DefaultLayout>
+      <Head>
+        <title>Projects - Mark Matute</title>
+        <meta name="description" content={'Projects created by Mark Matute'} />
+        <meta property="og:title" content={'Projects - Mark Matute'} />
+        <meta property="og:description" content={'Projects created by Mark Matute'} />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <div className="row mb-5">
         <div className="col-10 mx-auto">
           <div className="row">

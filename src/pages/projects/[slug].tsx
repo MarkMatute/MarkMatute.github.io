@@ -3,6 +3,7 @@ import DefaultLayout from '../_layouts/default-layout';
 import { PROJECTS, Project as ProjectModel } from '../../models/projects';
 import _ from 'lodash';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Project() {
   const router = useRouter();
@@ -13,11 +14,24 @@ export default function Project() {
   }
   const { title, image, tags = [], company, description = '', technologies = [] } = _project as ProjectModel;
 
+  const metaTitle = `${title} - Mark Matute`;
+  const metaDescription = `Mark Matute - Project ${title}, built using ${technologies.join(
+    ','
+  )}, and is related to following technologies ${tags.join(',')}`;
+
   return (
     <DefaultLayout>
+      <Head>
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:image" content={image} />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <div className="row mt-5 mb-5">
-        <div className="col-sm-12 col-lg-2 mx-auto">
-          <img src={image} alt="..." className="rounded" style={{ maxWidth: '100%' }} />
+        <div className="col-sm-12 col-lg-2 d-flex flex-column">
+          <img src={image} alt={metaTitle} className="rounded" style={{ maxWidth: '100%' }} />
           <div className="h5 mt-3">{title}</div>
           <div className="h6 mt-3 text-secondary">{company}</div>
           <div className="mt-3 text-secondary">
@@ -26,7 +40,7 @@ export default function Project() {
             })}
           </div>
         </div>
-        <div className="col-sm-12 col-lg-6 ps-5">
+        <div className="col-sm-12 col-lg-6 ps-5 mt-5 mt-sm-0">
           <div>
             <div className="h5">Technologies Used</div>
             {technologies.map((tech) => {
