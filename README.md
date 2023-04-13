@@ -1,1 +1,3 @@
-### mark ernest matute - portfolio website
+### Mark Ernest R. Matute
+## Portfolio Website
+## Built with NextJS
