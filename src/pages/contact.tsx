@@ -61,7 +61,7 @@ export default function Contact() {
   return (
     <DefaultLayout>
       <div className="row mb-5 mt-5">
-        <div className="col-6 mx-auto">
+        <div className="col-12 col-md-6 mx-auto">
           <div className="card text-start">
             <div className="card-body">
               <h4 className="card-title" ref={titleRef}></h4>
@@ -139,22 +139,24 @@ export default function Contact() {
               </form>
             </div>
           </div>
-          <div className="col-12 mt-5 d-flex flex-row justify-content-around">
-            <a className="btn btn-outline-primary" href={LINKS.LINKEDIN} role="button" target="_target">
-              LinkedIn
-            </a>
-            <a className="btn btn-outline-primary" href={LINKS.GITHUB} role="button" target="_target">
-              Github
-            </a>
-            <a className="btn btn-outline-primary" href={LINKS.FACEBOOK} role="button" target="_target">
-              Facebook
-            </a>
-            <a className="btn btn-outline-primary" href={LINKS.DEVTO} role="button" target="_target">
-              Dev.to
-            </a>
-            <a className="btn btn-outline-primary" href={LINKS.NPM} role="button" target="_target">
-              NPM
-            </a>
+          <div className="col-12 mt-5">
+            <div className="d-flex flex-row justify-content-between">
+              <a className="btn btn-outline-primary" href={LINKS.LINKEDIN} role="button" target="_target">
+                LinkedIn
+              </a>
+              <a className="btn btn-outline-primary" href={LINKS.GITHUB} role="button" target="_target">
+                Github
+              </a>
+              <a className="btn btn-outline-primary" href={LINKS.FACEBOOK} role="button" target="_target">
+                Facebook
+              </a>
+              <a className="btn btn-outline-primary" href={LINKS.DEVTO} role="button" target="_target">
+                Dev.to
+              </a>
+              <a className="btn btn-outline-primary" href={LINKS.NPM} role="button" target="_target">
+                NPM
+              </a>
+            </div>
           </div>
         </div>
       </div>
